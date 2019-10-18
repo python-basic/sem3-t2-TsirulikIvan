@@ -123,11 +123,11 @@ tablet_form(le, result, args)
    ### 2.3. Разработать скрипт с функцией, которая для ряда Фибоначчи, где количество элементов, n = 22, возвращает подмножество значений или единственное значение (по вариантам). Для нахождения элемента требуется использовать слайсы. Формирование отчета по выполнению задания и размещение его в портфолио, персональном репозитории. 
   ```python
 def fibb(subset_st=0, subset_end=22):
-  f_numbers = [0, 1]
-  n = 22
-  for i in range(2,n):
-    f_numbers.append(f_numbers[i - 2] + f_numbers[i - 1])
-  return f_numbers[subset_st:subset_end:]
+    f_numbers = [0, 1]
+    n = 22
+    for i in range(2,n):
+      f_numbers.append(f_numbers[i - 2] + f_numbers[i - 1])
+    return f_numbers[subset_st:subset_end:]
 
 start_p = int(input('Enter the first Number of subset\n'))
 end_p = int(input('Enter the last Number of subset\n'))
