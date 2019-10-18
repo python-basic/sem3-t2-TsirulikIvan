@@ -69,18 +69,6 @@ print("-"*44)
 C = True 
 print("| "+ str(int(A)) + " | " + str(int(C)) + " | " + log_func2(A,C) + " |") 
 print("-"*44)
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
 
   ```
   
