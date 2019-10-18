@@ -140,9 +140,9 @@ print(fibb(start_p, end_p))
   import math
 
 def find_velocity(l=0.5, end_v=3, deg=30):
-  h = l * math.sin(deg * math.pi / 180)
-  print(l, h, end_v)
-  return math.sqrt(end_v * end_v - 2 * 9.8 * h)
+    h = l * math.sin(deg * math.pi / 180)
+    print(l, h, end_v)
+    return math.sqrt(end_v * end_v - 2 * 9.8 * h)
 
 print(find_velocity())
   ```
