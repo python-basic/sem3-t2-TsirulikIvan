@@ -4,27 +4,6 @@
 ## Инвариантная:
   ### 2.1 Разработать скрипт с функцией, которая строит таблицу истинности для логического выражения (по вариантам) для двух и трех аргументов (используются различные наборы значений аргументов).
   ```python
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@TsirulikIvan 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-0
-00python-basic/sem3-t2-TsirulikIvan
- Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights
-sem3-t2-TsirulikIvan/logic.py
-@TsirulikIvan TsirulikIvan Logic tab version1
-08acd83 2 hours ago
-66 lines (65 sloc)  2.33 KB
-  
 A = False 
 B = False 
 C = False 
