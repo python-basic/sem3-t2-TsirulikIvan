@@ -167,7 +167,7 @@ print(unique_seq(lst))
 ### 2.3 Реализуйте программу с реализацией работы функции zip через функцию map. С использованием сразу лямбда функции
  ```python
   def emulated_zip(*args):
-    return list(map(lambda *args: tuple(args), *args))
+    return list(map(lambda *args: args, *args))
 
 l1 = [2,4,56, 32]
 l2 = [1,3,5,6,7,8,0]
